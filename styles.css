@@ -34,7 +34,8 @@
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
-  background-clip: text; /* Standard property */
+  background-clip: text;
+  /* Standard property */
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -218,19 +219,19 @@
 }
 
 .hero__heading span {
-  background: #ee0979; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ff6a00,
-    #ee0979
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ff6a00,
-    #ee0979
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ee0979;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #ff6a00,
+      #ee0979);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #ff6a00,
+      #ee0979);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
-  background-clip: text; /* Standard property */
+  background-clip: text;
+  /* Standard property */
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -239,19 +240,19 @@
 
 .hero__description {
   font-size: 60px;
-  background: #da22ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #9114ff,
-    #da22ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #da22ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #9114ff,
+      #da22ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #8f0eff,
+      #da22ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
-  background-clip: text; /* Standard property */
+  background-clip: text;
+  /* Standard property */
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -261,11 +262,13 @@
 .highlight {
   border-bottom: 4px solid rgb(132, 0, 255);
 }
+
 .highlight-a {
   border-bottom: 4px solid rgb(132, 0, 255);
   margin-left: 5%;
   width: 50%;
 }
+
 .highlight-for-skills {
   border-bottom: 4px solid rgb(132, 0, 255);
   width: 50%;
@@ -294,16 +297,18 @@
   justify-content: center;
   margin: 0 auto;
   max-width: 1300px;
-  padding: 0 2rem; /* Adjusted padding for better content spacing */
+  padding: 0 2rem;
+  /* Adjusted padding for better content spacing */
 }
 
 @media screen and (max-width: 768px) {
   .main__container {
     display: grid;
     grid-template-columns: 1fr;
-     /* Adjusted padding for better content spacing */
+    /* Adjusted padding for better content spacing */
   }
 }
+
 .main__containerr {
   display: flex;
 
@@ -312,13 +317,15 @@
   gap: 20px;
   margin: auto;
   max-width: 1300px;
-  padding: 2rem; /* Adjusted padding for better content spacing */
+  padding: 2rem;
+  /* Adjusted padding for better content spacing */
 }
 
 .main__content {
   color: #fff;
   width: 100%;
 }
+
 .content__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -328,28 +335,32 @@
 }
 
 @media screen and (max-width: 768px) {
-  
-.content__container {
-  display: grid;
-  grid-template-columns: 1fr ;
-  align-items: center;
-  justify-content: center;
- 
+
+  .content__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+
+  }
 }
-}
-ul > li {
+
+ul>li {
   margin-bottom: 10px;
 }
+
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .info span {
   font-weight: 500;
   font-size: 15px;
   text-transform: uppercase;
 }
+
 .bars {
   background-color: #555;
   height: 2.5px;
@@ -357,48 +368,62 @@ ul > li {
   width: 100%;
   position: relative;
 }
+
 .bar1::before {
   width: 90%;
 }
+
 .bar2::before {
   width: 65%;
 }
+
 .bar3::before {
   width: 52%;
 }
+
 .bar4::before {
   width: 40%;
 }
+
 .bar5::before {
   width: 70%;
 }
+
 .bar6::before {
   width: 65%;
 }
+
 .bar7::before {
   width: 60%;
 }
+
 .bar8::before {
   width: 60%;
 }
+
 .bar9::before {
   width: 40%;
 }
+
 .bar10::before {
   width: 30%;
 }
+
 .bar11::before {
   width: 50%;
 }
+
 .bar12::before {
   width: 60%;
 }
+
 .bars::before {
   content: "";
   position: absolute;
   height: 100%;
   background-color: #ff6b6b;
 }
+
 .info {
   text-decoration: none;
   color: #555;
@@ -406,11 +431,13 @@ ul > li {
   transition: color 0.4s ease;
   position: relative;
 }
-.main__content > span {
+
+.main__content>span {
   width: 100%;
   display: flex;
   justify-content: left;
 }
+
 .info::before {
   content: "▹";
   position: absolute;
@@ -427,6 +454,7 @@ ul > li {
 .info:hover::before {
   color: #ff6b6b;
 }
+
 /* 
 .info::after{
   content: "";
@@ -445,13 +473,15 @@ ul > li {
   transform: scaleX(1);
   transform-origin: left;
 }
+
 .main__content h1,
 .about {
   font-size: 2.5rem;
   background-color: #fe3b6f;
   background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
   background-size: 100%;
-  background-clip: text; /* Standard property */
+  background-clip: text;
+  /* Standard property */
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -462,19 +492,19 @@ ul > li {
 
 .main__content h2 {
   font-size: 3.5rem;
-  background: #ff8177; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #9114ff,
-    #da22ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ff8177;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #9114ff,
+      #da22ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #8f0eff,
+      #da22ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
-  background-clip: text; /* Standard property */
+  background-clip: text;
+  /* Standard property */
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -482,9 +512,12 @@ ul > li {
 }
 
 .main__content p {
-  font-size: 1.5rem; /* Adjusted font size for better readability */
-  font-weight: 500; /* Slightly reduced font weight */
-  line-height: 1.2; /* Improved line height for better spacing */
+  font-size: 1.5rem;
+  /* Adjusted font size for better readability */
+  font-weight: 500;
+  /* Slightly reduced font weight */
+  line-height: 1.2;
+  /* Improved line height for better spacing */
   margin-top: 1.5rem;
 }
 
@@ -493,7 +526,8 @@ ul > li {
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  padding: 1rem 2.5rem; /* Reduced padding for better button size */
+  padding: 1rem 2.5rem;
+  /* Reduced padding for better button size */
   border: none;
   border-radius: 4px;
   margin-top: 2rem;
@@ -501,7 +535,8 @@ ul > li {
   position: relative;
   transition: all 0.35s;
   outline: none;
-  overflow: hidden; /* Added overflow hidden for gradient effect */
+  overflow: hidden;
+  /* Added overflow hidden for gradient effect */
 }
 
 .main__btn a {
@@ -641,7 +676,7 @@ ul > li {
 }
 
 /* Contact Section Styling */
-.contact{
+.contact {
   background: #131313;
   display: flex;
   flex-direction: column;
@@ -655,7 +690,8 @@ ul > li {
   background-color: #ff8177;
   background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
   background-size: 100%;
-  background-clip: text; /* Standard property */
+  background-clip: text;
+  /* Standard property */
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -684,29 +720,26 @@ ul > li {
 }
 
 .contact__card:nth-child(2) {
-  background: #1fa2ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #a6ffcb,
-    #12d8fa,
-    #1fa2ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1fa2ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,
+      #a6ffcb,
+      #12d8fa,
+      #1fa2ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,
+      #a6ffcb,
+      #12d8fa,
+      #1fa2ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .contact__card:nth-child(3) {
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+  background-image: linear-gradient(-225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%);
 }
 
 .contact__card h2 {
@@ -869,4 +902,37 @@ ul > li {
     flex: 0 0 100%;
     padding: 10px;
   }
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0px;
+}
+
+.form-1>input {
+  margin: 10px 0px;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-2>textarea {
+  margin: 10px 0px;
+  width: 100%;
+  border-radius: 7px;
+  height: 60px;
+}
+
+.form-text {
+  color: #555;
+  font-size: small;
+  margin-bottom: 15px;
 }
